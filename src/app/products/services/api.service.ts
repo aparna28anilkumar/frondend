@@ -17,7 +17,8 @@ cartItemcount=new BehaviorSubject(0)
     this.cartCount()
   }
 
-  BASE_URL ='http://localhost:5000'
+  // BASE_URL ='http://localhost:5000'
+  BASE_URL ='https://backend-ecart.onrender.com'
 
   //get all products from mongodb
   getAllProducts(){

@@ -1,0 +1,17 @@
+.banner{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCN6o5DyedOwCRs_hktuUWAL_hGNfkN7c7KA&usqp=CAU');
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQknjy_Le3xSsT0VaPD7UainnUPTJf0myGlsA&usqp=CAU'); */
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.card img{
+transition: 3s;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}

@@ -1,0 +1,53 @@
+                          
+                                    E COMMERCE FRONTEND Conversation
+
+       1.create a folder E-cart,inside it create frontend and backend
+       2.project creation :ng new e-cart-frontend3.Run the frontend
+       3.Run the frontend:ng s -o
+       4.Clean the code in app.component.html
+       5.Install 3rd party libraries
+          ->copy and paste bootstrap link 
+          ->copy and  paste fontawesome cdjn link        
+          ->copy and pst google fonts in style.css   
+
+       6.Creating components
+       7.Lasy loading
+         lasy loading help keep initial bundle size smaller,
+         which in turn help decrease load time
+
+         ->Module Generation-
+         ng g m products --route products --module app.module
+
+      component create inside the products module
+
+        ->ng g c products/allProducts
+        ->ng g c products/viewProduct
+        ->ng g c products/cart
+        ->ng g c products/wishlist
+
+        not inculeded in the produvt modules
+        ->ng g c header
+        ->ng g c footer
+        ->ng g c pageNotFound
+
+     8.setup path   
+        http://localhost:4200/  => http://localhost:4200/products/allProducts
+
+        ->products.routing
+
+     9.Backend creation
+
+     10.Api Integration
+
+        ->Create api function in api.services
+        ->call that function in corresponding compound
+        ->display the details of the products
+        ->wishlist Integration
+
+        ng g p products/pipes/filter
+
+     11 .Behavior subject
+       ->it is used to share stream od data from one component to another
+       ->it under rxjs library
+       ->its a asynchronus function
+       ->next() method is used to attach the data   
